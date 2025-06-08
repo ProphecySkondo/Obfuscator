@@ -35,3 +35,5 @@ local function decode(data)
 
     return table.concat(bytes)
 end
+
+return decode
